@@ -26,6 +26,8 @@ file(GLOB srckern "linux-kern-al/kernel/*.c"
 
 file(GLOB srctest "test/*.c" "test/*.cpp")
 
+file(GLOB srctmpfs "fs/linux-tmpfs/*.c")
+
 set(PROJECT_SOURCES
         main.cpp
         mainwindow.cpp
@@ -35,6 +37,7 @@ set(PROJECT_SOURCES
         ${srckern}
         ${srcvfs}
         ${srctest}
+        ${srctmpfs}
 )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
