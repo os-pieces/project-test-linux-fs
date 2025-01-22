@@ -26,7 +26,9 @@ extern int vfs_init(void);
 
 static void fs_init(void)
 {
+    extern int tmpfs_init(void);
 
+    tmpfs_init();
 }
 
 int test_fs_init(void)
