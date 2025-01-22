@@ -1,0 +1,8 @@
+[submodule "linux-kern-al"]
+	path = linux-kern-al
+	url = https://github.com/os-pieces/linux-kern-al.git
+	branch = main
+[submodule "linux-vfs"]
+	path = linux-vfs
+	url = https://github.com/os-pieces/linux-vfs.git
+	branch = main
