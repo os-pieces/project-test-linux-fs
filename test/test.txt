@@ -1,0 +1,3 @@
+mkdir /a;mkdir /a/b1;mkdir /a/b2;mkdir /a/b3;ls /a/b1/..
+mknod ttyS0 c 2 0
+mkdir /pts;mount -t devpts /pts
